@@ -1,0 +1,234 @@
+/*global */
+
+body {
+    background-color: #f0ecff;
+}
+
+#Success-alert {
+    background-color: red;
+}
+
+#addBtn {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    line-height: 0.8;
+    text-align: center;
+    z-index: 1000;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.number-info {
+    color: rgb(172, 172, 172);
+    font-weight: 100;
+}
+
+.number-info span {
+    font-size: 50px;
+    color: #000;
+}
+
+.user-main-info {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+#loader {
+    background-color: #cccccc9c;
+    width: 100px;
+    height: 100px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/**variables 
+
+:root {}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+/**start header
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.header .logo {
+    width: 15%;
+}
+
+.header .logo h2 {
+    font-size: 22px;
+}
+
+.header .nav {
+    padding: 0;
+    display: flex;
+    width: 15%;
+}
+
+.header .nav a {
+    margin: 0 3px;
+    color: black;
+    font-size: 20px;
+}
+
+.header .nav a.active {
+    font-weight: bold;
+}
+
+.auth {
+    align-items: flex-end;
+    width: 60%;
+    text-align: right;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.auth button {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    color: cornflowerblue;
+    background-color: transparent;
+}
+
+.auth button a {
+    color: cornflowerblue;
+} */
+
+
+/* .container {
+    height: 1000px;
+} */
+
+
+/**end header */
